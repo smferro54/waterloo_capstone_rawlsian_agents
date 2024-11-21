@@ -16,8 +16,14 @@ https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 - Save the provided credentials file in ~/.aws or 
 `touch ~/.aws/credentials` and paste the provided values
 
+## AWS login setup
+
+export AWS_PROFILE=waterloo_capstone
+
 ## Activate virtual environment if on Linux, or create one. 
 `source waterloo_capstone_env/bin/activate`
+
 `poetry shell`
+
 `poetry run python3 character_roleplay.py`
 
